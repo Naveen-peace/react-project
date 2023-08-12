@@ -8,7 +8,7 @@ function Header() {
     return (
             <Navbar bg="dark" variant="dark" sticky='top'>
                 <Container>
-                    <Navbar.Brand as={Link} to='/'>
+                    <Navbar.Brand as={Link} to='/react-project'>
                         <img src={require('../asset/image/1e0318a04ce644cb89791a9494eb1fb7-removebg-preview.png')} width='80px' alt=""/>
                     </Navbar.Brand>
                     <Nav className="ms-auto">

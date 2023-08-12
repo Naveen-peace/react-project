@@ -6,7 +6,7 @@ function ThankPage() {
         <section className='text-center py-5 my-5'>
             <img src="https://cdn-icons-png.flaticon.com/128/3472/3472620.png" alt="" />
             <h1>Thank for your order!</h1>
-            <Link to='/'>Continue Shoping</Link>
+            <Link to='/react-project'>Continue Shoping</Link>
         </section>
     )
 }

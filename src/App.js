@@ -20,7 +20,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Layout />}>
-              <Route index element={<Home />} />
+              <Route path='/react-project' index element={<Home />} />
               <Route path='/product/:slug' element={<ProductView />} />
               <Route path='/cart' element={<Cart />} />
               <Route path='/thank-you' element={<ThankPage />} />

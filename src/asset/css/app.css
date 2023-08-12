@@ -1,0 +1,120 @@
+body {
+    background-color: orange;
+}
+
+.banner-search {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #571b53, #511c5a, #491f61, #3e2268, #2f256f, #26256b, #1c2567, #122562, #172253, #191e44, #191b35, #181827);
+}
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-img-flexible {
+    height: 200px;
+    object-fit: contain;
+}
+
+.broder-fix {
+    border-radius: 15px;
+}
+
+.btn-adjust {
+    background-color: black;
+    border-color: violet;
+    border-radius: 25px;
+    padding: 8px 25px;
+    align-items: center;
+}
+
+.active-category {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.eye-btn {
+    border-radius: 50%;
+
+}
+
+.btn-3 {
+    background-color: #26256b;
+    color: orange;
+}
+
+.btn-5 {
+    border-radius: 10px;
+    background-color: transparent;
+    color: #393733;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.btn-5:hover{
+    background-color:rgb(63,174,251);
+}
+
+.btn-6 {
+    border-radius: 0 20px 20px 0;
+    border-color: #00B4CC !important;
+    padding: 0.375rem 0.75rem;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    background-color: #ffffff;
+}
+
+.btn-6:hover {
+    background-color:rgb(63,174,251);
+    color: #212529;
+}
+
+.search-icon {
+    margin: 20px 20px;
+    width: 50%;
+    border-color: #00B4CC;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: center;
+}
+
+.new-box{
+    border-radius: 1px solid !important;
+}
+.display-adjust {
+    border-radius: 20px;
+    margin-left: 5p;
+
+}
+
+.cart-adjust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background-color: transparent !important;
+    align-items: center !important;
+}
+
+.card-body h5 {
+    margin-left: 5 px;
+}
+
+.card-body:hover {
+    background-color: #ffffff;
+    color: #212529;
+}

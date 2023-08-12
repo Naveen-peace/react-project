@@ -39,7 +39,7 @@ function Cart() {
             <div className='container p-5 text-center text-dark my-5'>
                 <img src="https://cdn-icons-png.flaticon.com/512/4555/4555971.png" alt="" width="140px" />
                 <h5 className='my-2'>Your Cart is Empty!</h5>
-                <Link className="btn btn-primary" to="/"> Shop now</Link>
+                <Link className="btn btn-primary" to="/react-project"> Shop now</Link>
             </div>
         )
     }
